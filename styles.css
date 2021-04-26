@@ -55,6 +55,21 @@ p{
     background-color: #FA4A0C;
     color: #FFF;
 }
+.install-title{
+    color: #FA4A0C;
+    font-size: 24px;
+    line-height: 1.5;
+    letter-spacing: 0.001em;
+    margin-bottom: 30px;
+}
+.install-sub-title{
+    color: #252B42;
+    font-size: 40px;
+    line-height: 1.425;
+    letter-spacing: 0.002em;
+    margin-bottom: 30px;
+}
+
 /* header */
 .header{
     padding: 17px 0 40px;
@@ -141,6 +156,18 @@ p{
     line-height: 1.5;
     letter-spacing: 0.001em;
     margin-bottom: 49px;
+}
+/* install */
+.install{
+    padding-top:65px;
+    text-align: center;
+}
+.install img{
+    display: block;
+    width: 302px;
+    height: auto;
+    margin: 0 auto;
+    transform: translateX(5%);
 }
 
 
@@ -262,6 +289,27 @@ p{
         line-height: 0.8181818181818182;
         margin-bottom: 0;
     }
+    /* install */
+    .install .col-md-7{
+        order: 1;
+    }
+    .install{
+        padding-top:78px;
+        text-align: left;
+    }
+    .install-title{
+        margin-bottom: 17px;
+    }
+    .install-sub-title{
+        margin-bottom: 17px;
+    }
+    .install img{
+        width: 100%;
+        height: auto;
+        margin: 0;
+        transform: none;
+    }
+    
 }
 
 
