@@ -168,7 +168,44 @@ p{
     height: auto;
     transform: translateX(8%);
 }
-
+/* download */
+.download{
+    padding: 110px 39px;
+    background-color:#252B42;
+    text-align: center;
+}
+.download__title{
+    font-size: 40px;
+    line-height: 1.425;
+    letter-spacing: 0.002em;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+.download__desc{
+    color: #BDBDBD;
+    margin-bottom: 50px;
+}
+.download__button-group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.download__button-group .fill-button{
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    font-size: 16px;
+    border-radius: 10px;
+    width: 137px;
+    padding: 18px 0;
+    transition: background-color 250ms ease-in;
+}
+.download__button-group .fill-button:last-child{
+    width: 186px;
+    padding: 16px 0;
+    margin-left: 16px;
+}
 
 /* DESKTOP */
 @media screen and (min-width:768px){
@@ -289,8 +326,8 @@ p{
         margin-bottom: 0;
     }
     /* install */
-    .install .col-md-7{
-        order: 1;
+    body .install:nth-child(even) .col-md-7{
+        order:1;
     }
     .install{
         padding-top:78px;
@@ -308,11 +345,23 @@ p{
         margin: 0;
         transform: none;
     }
-    .install +.install .col-md-7{
-        order: 0;
+    /* download */
+    .download{
+        background-image: url('./assets/background2.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100%;
+        padding: 130px 0;
     }
-    .install:last-child .col-md-7{
-        order: 1;
+    .download__desc{
+        color: #FFFFFF;
+        margin-bottom: 60px;
+    }
+    .download__button-group .fill-button{
+        width: 142px;
+    }
+    .download__button-group .fill-button:last-child{
+        width: 173px;
     }
     
 }
