@@ -6,4 +6,13 @@
 <hr/>
 
 
-![food-delivery-ui](https://user-images.githubusercontent.com/79042667/121349394-6b5b7300-c964-11eb-8500-26b1c61c4630.png)
+
+
+### Main page.
+
+![1](https://user-images.githubusercontent.com/79042667/121349998-153aff80-c965-11eb-9b2b-dfe5d8fa0023.png)
+
+
+![2](https://user-images.githubusercontent.com/79042667/121350001-166c2c80-c965-11eb-8710-43abe5acba4c.png)
+
+
