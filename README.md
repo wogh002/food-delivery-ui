@@ -1,6 +1,6 @@
 # food-delivery-ui (HTML , CSS)
- ## html/css clone coding 반응형
-
+ ## html/css clone coding 
+ ### bootstrap grid 를 이용한 responsive web 
  **링크 : https://wogh002.github.io/food-delivery-ui/**
 
 <hr/>
